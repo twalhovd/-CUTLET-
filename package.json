@@ -1,0 +1,58 @@
+{
+  "name": "CUTLET",
+  "version": "0.40.0",
+  "description": "description here",
+  "author": {
+    "name": "GUMI#0526",
+    "email": "twalhovd1@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "dependencies": {
+    "Sherlock": "neilgupta/Sherlock",
+    "canvas": "next",
+    "cheerio": "^0.22.0",
+    "discord.js": "github:hydrabolt/discord.js",
+    "discord.js-commando": "github:gawdl3y/discord.js-commando",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "moment": "^2.0.0",
+    "moment-duration-format": "^1.0.0",
+    "node": "^9.3.0",
+    "node-opus": "^0.2.0",
+    "pg": "^6.0.0",
+    "pg-hstore": "^2.0.0",
+    "prism-media": "hydrabolt/prism-media",
+    "random-js": "^1.0.0",
+    "redis": "^2.0.0",
+    "request": "^2.0.0",
+    "request-promise": "^4.0.0",
+    "sequelize": "^4.0.0",
+    "sherlockjs": "github:neilgupta/Sherlock",
+    "simple-youtube-api": "^3.0.0",
+    "snekfetch": "^3.0.0",
+    "tsubaki": "^1.0.0",
+    "uws": "^8.0.0",
+    "winston": "^2.0.0",
+    "ytdl-core": "^0.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-aqua": "^2.0.1"
+  },
+  "eslintConfig": {
+    "extends": "aqua",
+    "rules": {
+      "no-process-env": "off"
+    }
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
